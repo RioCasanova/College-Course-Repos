@@ -1,0 +1,30 @@
+.hide-on-mobile {
+    display: none;
+}
+
+header div {display: flex; background-color: black;padding: 1rem; align-items: center;}
+header img { width: 125px;}
+header > ul > li:hover { background-color: #242B32; cursor: pointer;}
+header > ul > li { width: 25%; padding: 1rem; background-color:#454545;}
+header > ul > li > a {color: white; text-decoration: none;}
+header > ul { display: flex;text-align: center;}
+
+.menu-logo {margin: 0 auto;}
+.menu {color: white;}
+
+
+
+@media(min-width: 900px) {
+    .hide-on-mobile {
+        display: inline-block;
+    }
+    header {
+        display: flex;
+    }
+    header div {
+        display: flex;
+
+    }
+}
+/* Media queries should be at the bottom of each section */
+/* Always start mobile down to desktop styles not the other way around - there would be a lot of styles to change or remove otherwise */
