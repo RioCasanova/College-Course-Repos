@@ -1,0 +1,32 @@
+﻿@page
+@model TrainWebApp.Pages.ContactUs.ContactUsModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<h1>Contact Us</h1>
+<form method="post">
+    <label>
+        Please enter your Email address <input type="email" asp-for="Email" />
+    </label>
+    <label>
+        Select your reason for contact below:
+        <select asp-for="ContactReason">
+            <option value="">Select</option>
+            <option value="contributing">Contributing</option>
+            <option value="request-membership">Request Membership</option>
+            <option value="bug-report">Bug Report</option>
+        </select>
+    </label>
+    <label>
+        Message Title<input type="text" asp-for="MessageTitle"/>
+    </label>
+    <label>
+        Message
+        <textarea asp-for="Message" rows="5" cols="100"></textarea>
+    </label>
+    <br/>
+
+    <button type="submit" value="bdmSubmit" id="jsIdentifier" name="RequestObjectIdentifier" asp-page-handler="Submit">SUBMIT</button>
+</form>
+<br/>
+<p>@Model.FeedBack</p>

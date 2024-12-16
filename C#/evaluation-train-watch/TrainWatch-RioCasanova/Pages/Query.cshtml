@@ -1,0 +1,105 @@
+﻿@page "{RailCarTypeID?}/{SearchArg?}"
+@model TrainWebApp.Pages.QueryModel
+@{
+    ViewData["Title"] = "Query";
+}
+<form method="post">
+    <label>
+        Enter a Reporting Mark:
+        <input type="text" asp-for="SearchArg" style="margin-bottom: 1rem;"
+               placeholder="enter reporting mark here" />
+        <button type="submit" asp-page-handler="Search" formnovalidate>Search</button>&nbsp;&nbsp;
+        <button type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
+    </label>
+    <label>
+        Select Car Name:
+        <select asp-for="SelectRailCar" style="margin-bottom: 1rem;">
+            <option value="0" selected="true">select ...</option>
+            @foreach (var item in Model.RailCarTypeList)
+            {
+                if (item.RailCarTypeID == Model.RailCarTypeID)
+                {
+                    <option value="@item.RailCarTypeID" selected="true">@item.Name</option>
+                }
+                else
+                {
+                    <option value="@item.RailCarTypeID">@item.Name</option>
+                }
+            }
+        </select>
+        <button type="submit" asp-page-handler="Select" formnovalidate>Select by RailCarName</button>&nbsp;&nbsp;
+    </label>
+    <br />
+    @if (Model.RollingStockData != null)
+    {
+        if (Model.RollingStockData.Count() == 0)
+        {
+            <p style="color: blueviolet; font-weight: bold; font-size: large">
+                There are no Reporting Marks matching your search request
+            </p>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reporting Mark</th>
+                        <th>Owner</th>
+                        <th>Capacity</th>
+                        <th>In Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.RollingStockData)
+                    {
+                        if (Model.RollingStockData != null)
+                        {
+                            <tr>
+                                <td>@item.ReportingMark</td>
+                                <td>@item.Owner</td>
+                                <td>@item.Capacity</td>
+                                <td>@item.InService</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        }
+    }
+    else if (Model.SelectRailCar != 0)
+    {
+        if (Model.RailCarTypeData.Count() == 0)
+        {
+            <p style="color: blueviolet; font-weight: bold; font-size: large">
+                There are no Rail Car IDs matching your search request
+            </p>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reporting Mark</th>
+                        <th>Owner</th>
+                        <th>Capacity</th>
+                        <th>In Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.RailCarTypeData)
+                    {
+                        if (Model.RailCarTypeData != null)
+                        {
+                            <tr>
+                                <td>@item.ReportingMark</td>
+                                <td>@item.Owner</td>
+                                <td>@item.Capacity</td>
+                                <td>@item.InService</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        }
+    }
+</form>

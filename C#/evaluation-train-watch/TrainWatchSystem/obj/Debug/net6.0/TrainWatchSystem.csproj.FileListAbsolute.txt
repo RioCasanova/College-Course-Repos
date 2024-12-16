@@ -1,0 +1,53 @@
+D:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.AssemblyReference.cache
+D:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfoInputs.cache
+D:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfo.cs
+D:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.CoreCompileInputs.cache
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.deps.json
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.dll
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.pdb
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.AssemblyReference.cache
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfoInputs.cache
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfo.cs
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.CoreCompileInputs.cache
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.dll
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\refint\TrainWatchSystem.dll
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.pdb
+F:\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-DbSetup\TrainWatchSystem\obj\Debug\net6.0\ref\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.deps.json
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.pdb
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.AssemblyReference.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfoInputs.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfo.cs
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.CoreCompileInputs.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\refint\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.pdb
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\ref\TrainWatchSystem.dll
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.deps.json
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.dll
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.pdb
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.AssemblyReference.cache
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfoInputs.cache
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfo.cs
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.CoreCompileInputs.cache
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.dll
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\refint\TrainWatchSystem.dll
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.pdb
+D:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04\TrainWatchSystem\obj\Debug\net6.0\ref\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.deps.json
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\bin\Debug\net6.0\TrainWatchSystem.pdb
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.AssemblyReference.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfoInputs.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.AssemblyInfo.cs
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.csproj.CoreCompileInputs.cache
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\refint\TrainWatchSystem.dll
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\TrainWatchSystem.pdb
+F:\Nait-Backup\DMIT\Fall 2022\DMIT1517 App Dev\cpsc-1517-sep-2022-a01-exercises-RioCasanova\TrainWatch-RioCasanova-exercise-04 - Copy\TrainWatchSystem\obj\Debug\net6.0\ref\TrainWatchSystem.dll

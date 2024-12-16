@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TrainWebApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.8"/>
+    @*Removed a link to bootstrap and added a link to holiday*@
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TrainWebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li style="padding-right: 1rem;">
+                        <a asp-area="" asp-page="/Index">
+                            <img src="~/img/icons8-train-100.png" alt="Logo Image" title="Go to Home" />
+                            Train Watch
+                        </a>
+                    </li>
+                    <li style="padding-right: 1rem;">
+                        <a asp-area="" asp-page="/Index">Home</a>
+                    </li>
+                    <li style="align-self: center; margin-bottom: .2rem; padding-right: 1rem;">
+                        <a asp-area="" asp-page="/Privacy">Privacy</a>
+                    </li style="padding-right: 1rem;">
+                      <li style="align-self: center; margin-bottom: .2rem; padding-right: 1rem;">
+                        <a asp-area="" asp-page="/Query">Query</a>
+                    </li style="padding-right: 1rem;">
+                    <li>
+                        <span>Contact Us</span>
+                        <ul style="margin:0;">
+                            <li><a asp-area="" asp-page="/ContactUs/ContactUs" >Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/About" >About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2022 - Rio Casanova - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
