@@ -1,0 +1,243 @@
+:root {
+  --big-box: 2px 5px 15px 0px #17161694;
+  --black: #122529;
+  --charcoal: #343536;
+  --emerald: #007e67;
+  --ruby: #e45e4f;
+  --white: #fff;
+}
+
+/* Universal Styles */
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  justify-content: space-between;
+  min-height: 95vh;
+}
+
+main {
+  margin: 2rem;
+}
+
+@media screen and (min-width: 860px) {
+  
+  main {
+      align-items: center;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+  main section {
+      max-width: 40%;
+    }
+}
+
+/* Form Layout */
+
+form {
+  background-color: var(--ruby);
+  box-shadow: var(--big-box);
+  color: var(--white);
+  padding: 2rem;
+}
+
+fieldset {
+  border: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+form h2 {
+  color: var(--charcoal);
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+form p {
+  font-size: 0.9em;
+}
+
+.form-control:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+form label {
+  color: var(--charcoal);
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+
+form input:focus ~ label {
+  font-size: 1rem;
+}
+
+input:not([type="submit"]),
+select {
+  background: var(--ruby);
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  font-size: 1rem;
+  transition: 0.3s all ease;
+  width: 100%;
+}
+
+select {
+  border: 1px solid var(--white);
+  height: 2rem;
+}
+
+form input:focus {
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  background-color: var(--charcoal);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.15rem;
+  height: 2.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--black);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.45);
+}
+
+/* Card Design */
+
+.front-side,
+.back-side {
+  background-color: var(--black);
+  box-shadow: var(--big-box);
+  color: var(--white);
+  display: grid;
+  grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%;
+  height: 220px;
+  margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  width: 390px;
+}
+.color-grid {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(8, 50px);
+  height: 400px;
+  transform: rotate(-45deg);
+  width: 150px;
+}
+.black {
+  background-color: var(--charcoal);
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 3;
+}
+.red1 {
+  background-color: var(--ruby);
+  grid-row: 2 / span 5;
+}
+.red2 {
+  background-color: var(--ruby);
+  grid-column: 2 / span 2;
+  grid-row: 4/7;
+}
+.green {
+  background-color: var(--emerald);
+  grid-column: 2/4;
+  grid-row: 7/9;
+}
+
+.info-grid {
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.432);
+  display: grid;
+  font-size: 0.7rem;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  grid-template-columns: 15px repeat(3, 1fr) 15px;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  line-height: 1px;
+  width: 100%;
+  z-index: 2;
+}
+
+.info-grid .name {
+  font-size: 1.2em;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+  letter-spacing: .1rem;
+  margin-top: 8px;
+}
+
+.info-grid .name h5{
+  font-weight: unset;
+}
+
+.info-grid .addr {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+}
+
+.info-grid .phoneNo {
+  grid-column: 3 / span 2;
+  grid-row: 2;
+  text-align: end;
+}
+
+.info-grid .emailId {
+  font-size: 1.1em;
+  grid-column: 3 / span 2;
+  grid-row: 3;
+  text-align: end;
+}
+
+.back-side .name-tag {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.363);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.288);
+  font-size: 1.2em;
+  font-weight: unset;
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+  justify-content: center;
+  line-height: 1;
+  letter-spacing: .1rem;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Footer */
+
+.credits{
+  border-top: 1px solid #dedede;
+  color: var(--charcoal);
+  font-size: 0.8em;
+  opacity: 0.75;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.credits a {
+  color: var(--emerald);
+}
