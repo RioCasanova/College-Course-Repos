@@ -1,0 +1,20 @@
+{
+  "name": "review-astronauts-example-instructor",
+  "version": "0.0.1",
+  "description": "An example about astronauts with students",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "hello": "echo \"Hello from the teirmeenail\"",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Dan Mouris",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

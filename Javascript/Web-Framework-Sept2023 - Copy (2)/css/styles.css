@@ -1,0 +1,14 @@
+html {
+  font-size: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.svg-1 {
+  background-image: url("../img/leaf.svg");
+  background-repeat: repeat;
+  padding: 5rem;
+  background-attachment: fixed;
+}

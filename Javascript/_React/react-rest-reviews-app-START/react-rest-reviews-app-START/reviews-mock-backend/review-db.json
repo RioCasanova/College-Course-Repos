@@ -1,0 +1,34 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Wheel of time",
+      "comment": "Books were awesome, second season of the show was great",
+      "rating": 8
+    },
+    {
+      "id": 2,
+      "title": "The Lord of the rings",
+      "comment": "A classic movie and a classic book series as well!",
+      "rating": 10
+    },
+    {
+      "title": "Fight Club",
+      "comment": "Great movie, great ending to the book",
+      "rating": 9,
+      "id": 3
+    },
+    {
+      "title": "The Batman",
+      "comment": "I underestimated Robert Pattinson",
+      "rating": "9",
+      "id": 7
+    },
+    {
+      "title": "Snatch",
+      "comment": "Fantastic movie",
+      "rating": "9",
+      "id": 8
+    }
+  ]
+}
