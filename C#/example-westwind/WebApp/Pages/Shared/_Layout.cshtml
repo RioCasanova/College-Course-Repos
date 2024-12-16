@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/holiday.css@0.9.8" />
+    @*Removed a link to bootstrap and added a link to holiday*@
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a asp-area="" asp-page="/Index">WebApp</a>
+            <div>
+                <ul>
+                    <li>
+                        <a asp-area="" asp-page="/Index">
+                            <img src="~/img/ChinookMusicMenuLogo.jpg" alt="Logo Image"
+                            title="Go to Home"/>
+
+                            Home</a>
+                    </li>
+                    <li>
+                       <span>Samples</span>
+                       <ul style="margin:0;">
+                           <li>
+                               <a asp-area="" asp-page="/samples/BasicDataManagement">Basic</a>
+                           </li>
+                            <li>
+                                <a asp-area="" asp-page="/samples/RegionQueryOne">Single Row Query</a>
+                            </li>
+                       </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-page="/Privacy">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div>
+            &copy; 2022 - WebApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

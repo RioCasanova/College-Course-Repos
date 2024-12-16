@@ -1,0 +1,64 @@
+﻿@page
+@model WebApp.Pages.samples.BasicDataManagementModel
+@{
+    ViewData["Title"] = "BasicDataManagement";
+}
+<h1>Basic Data Management</h1>
+@*
+    Investigate using forms on a webpage__
+    Controls: <input>, <select>, <button>, <form>, <label>
+    helper tag: asp-for asp-page-handler
+
+    <form> parameters:  method: indicates how data is transferred to server
+                        get: visible on URL in plain text
+                        post: Embedded within form objects sent to the server (not visible)
+                        action: directs the server to a page to process the form
+                                "": direct to current page (optional)
+
+    <label>:    no need for parameters, can have helper tags such as asp-for.
+                Depending on CSS stylesheet you can get different results.
+
+    <input>:    Used to accept input from a page user, has various types of acceptable inputs (type=)
+                can tie the controls to the property on the ModelPage directly (asp-for="propertyName").
+
+                GENERAL NOTES
+                What is "the controls"? it would take the user input and put it directly into the property on the back end
+                of C#
+                binding - without the binding they are not aware of eachother
+                post - is like turning on the faucet
+
+*@
+
+<form method="post" action=""> 
+    <label>
+        @*  
+            We can choose what type of input to use for the form - there is specific validation for each "type"
+
+            asp-for:    part of the helper class - part of holiday CSS (possibly) - makes work a lot lighter -
+                        attaches the form to the code behind.
+        *@
+        Enter a number <input type="number" asp-for="MyNum"/>
+    </label>
+    <label>
+        Select favourite course: (drop down list)
+        <select asp-for="FavouriteCourse">
+            <option value="">select...</option>
+            <option value="1008">COMP1008</option>
+            <option value="1517">CPSC1517</option>
+            <option value="2018">DMIT2018</option>
+        </select>
+    </label>
+    <label>
+        Comments
+        <textarea asp-for="Comments" rows="5" cols="100"></textarea>
+    </label>
+    <br/>
+    
+    <button type="submmit" value="bdmSubmitA" id="jsIdentifierA" name="RequestObjectIdentifierA" asp-page-handler="A">Press Me A(submit form)</button>
+    &nbsp;&nbsp; @*This adds spaces between the buttons*@
+
+    <button type="submit" value="bdmSubmitB" id="jsIdentifierB" name="RequestObjectIdentifierB" asp-page-handler="B">Press Me B(submit form)</button>
+
+</form> 
+<br/>
+<p>@Model.FeedBack</p>
