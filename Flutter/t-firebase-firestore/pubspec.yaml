@@ -1,0 +1,34 @@
+name: robbinlaw
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  flutter_slidable:
+  animated_text_kit:
+  google_fonts: 6.1.0
+  font_awesome_flutter:
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+
+  fonts:
+    - family: Chilanka-Regular
+      fonts:
+        - asset: lib/assets/fonts/Chilanka-Regular.ttf
