@@ -1,0 +1,61 @@
+﻿@page "/SamplePages/AdvancedInvoice"
+<PageTitle>Advanced Invoice</PageTitle>
+<h3>Advanced Invoice #@invoice.InvoiceNo</h3>
+
+<EditForm EditContext="editContext" OnValidSubmit="@HandleValidSubmit"
+          OnInvalidSubmit="@HandleInValidSubmit">
+    @{
+        //  The DataAnnotationsValidator is the standard validator type in Blazor.
+        //  Adding this component within an EditForm component will enable form
+        //      validation
+    }
+    <DataAnnotationsValidator />
+    @{
+        //  The ValidationSummary component can simply be dropped into an EditForm in our
+        //      mark-up
+    }
+    @*<ValidationSummary/>*@
+    <div>
+        <p>
+            <label>Invoice Date</label>
+            <label>@invoice.InvoiceDate.ToShortDateString()</label>
+        </p>
+    </div>
+    <div>
+        <p>
+            <label>Sub Total</label>
+            <label>@invoice.SubTotal</label>
+        </p>
+        <p>
+            <label>Tax</label>
+            <label>@invoice.Tax</label>
+        </p>
+    </div>
+    <div>
+        <p>
+            <label>Sale Person</label>
+            <InputText id="salePerson" @bind-Value="invoice.SalePerson" />
+            <ValidationMessage For="() => invoice.SalePerson" />
+        </p>
+        <p>
+            <label>Payment Type</label>
+            <InputSelect @bind-Value="invoice.PaymentType" @onclick="() => OnPaymentTypeClick()">
+                @* iterate the enum PaymentTypes and get each value within it*@
+                @foreach (var paymentType in Enum.GetValues(typeof(PaymentTypes)))
+                {
+                    <option value="@paymentType">@paymentType</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="() => invoice.PaymentType" />
+        </p>
+    </div>
+    <MatButton type="submit" Label="CLick me" Raised="true"
+               Disabled="@(!context.IsModified() || !context.Validate())"/>
+</EditForm>
+<MatButton Label="Index Page" Raised="true" 
+           @onclick="@(()=>NavigationManager.NavigateTo($"/"))"/>
+<div>
+    <h4>@feedBack</h4>
+</div>
+
+
