@@ -1,0 +1,12 @@
+﻿/*
+    This is a CSS file for styling
+
+*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
