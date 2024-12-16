@@ -1,0 +1,13 @@
+{
+  "name": "star-warsarraymap",
+  "version": "1.0.0",
+  "description": "1. Get an array of all names\r 2. Get an array of all heights\r 3. Get an array of objects with just name and height properties\r 4. Get an array of all first names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
