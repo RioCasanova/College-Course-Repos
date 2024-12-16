@@ -1,3 +1,9 @@
-# College-Course-Repos
+# CPSC1517 Fall 2022 Term Exercises
 
-These are all the repos that I worked on as a part of the NAIT Digital Media &amp; IT: Software Development stream. It includes different languages at different difficulties.
+> Exercises for this term are posted to this repository. You can copy these instructions to your exercise repository set up by your instructor for this term.
+
+1. [Exercise 1](./Exercises/Exercise1/ReadMe.md)
+1. [Exercise 2](./Exercises/Exercise2/ReadMe.md)
+## Submission of exercises/project
+
+Your source code must be submitted as per your instruction's direction. 
