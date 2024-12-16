@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Boostrap layout using a navbar & grid system">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Demo - Bootstrap</title>
+</head>
+
+<body>
+  <header class="bg-dark">
+    <div class="container-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap Demo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+            aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Link One</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link Two</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Link Three</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                  aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="py-4">
+    <div class="container-lg">
+      <!-- We need to regain the 15 pixels of padding off the sides for us to be able
+            to fit in 12 columns - this is the only way we are going to be able to have
+            12 columns. This is called design grid overlay, which is also a chrome extension. -->
+
+      <!-- Bootstrap does not support gap for flexbox so we just use margin or padding -->
+      <div class="row">
+        <div class="col-md-8 mb-3">
+          <h2>Major Attention Area</h2>
+          <p>Learning the Bootstrap framework for fast and easy prototyping</p>
+
+          <a href="" class="btn btn-outline-secondary">Learn More</a>
+          <a href="" class="btn btn-primary">Download</a>
+        </div>
+        <div class="col-md-4 mb-5 pb-5">
+          <img src="img/bootstrap-wallpaper.png" alt="Bootstrap image" class="img-fluid">
+        </div>
+      </div>
+      <div class="row ">
+        <!-- Dont try and put classes on stuff - put your stuff in divs and put the classes on that -->
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h3>Subheading</h3>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione dignissimos officia eaque ipsam
+                eveniet officiis voluptatibus ea saepe illum recusandae alias, tempora consequuntur possimus ad
+                inventore
+                et fugit doloremque.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h3>Subheading</h3>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione dignissimos officia eaque ipsam
+                eveniet officiis voluptatibus ea saepe illum recusandae alias, tempora consequuntur possimus ad
+                inventore
+                et fugit doloremque.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3 col-lg-4 offset-md-3 offset-lg-0">
+          <div class="card">
+            <div class="card-header">
+              <h3>Subheading</h3>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ratione dignissimos officia eaque ipsam
+                eveniet officiis voluptatibus ea saepe illum recusandae alias, tempora consequuntur possimus ad
+                inventore
+                et fugit doloremque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
