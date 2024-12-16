@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Welcome to JavaScript</title>
+
+  <!-- Link to Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="d-flex h-100">
+  <div class=" d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3 container">
+      <h1 class="text-center">Ted Talks</h1>
+      <form id="ted-talk-filter">
+        <div class="row">
+          <div class="mb-3 col-5">
+            <input name="search-query" type="text" class="form-control" placeholder="search">
+          </div>
+          <div class="mb-3 col-4">
+            <input name="min-views" type="number" class="form-control" placeholder="Minimum Views">
+          </div>
+
+          <div class="mb-3 col-3">
+            <button type="submit" class="w-100 btn btn-primary">Filter</button>
+          </div>
+        </div>
+      </form>
+
+
+      <div class="table-responsive-lg"></div>
+      <table class="table">
+        <thead>
+          <tr id="ted-talk-columns">
+            <th scope="col">title</th>
+            <th scope="col">author</th>
+            <th scope="col">date</th>
+            <th scope="col">link</th>
+            <th scope="col">views</th>
+            <th scope="col">likes</th>
+          </tr>
+        </thead>
+        <tbody id="ted-talk-rows">
+
+        </tbody>
+      </table>
+  </div>
+  </main>
+  </div>
+  <!-- 
+    Source for talks data:
+    https://www.kaggle.com/ashishjangra27/ted-talks
+  -->
+</body>
+
+</html>
