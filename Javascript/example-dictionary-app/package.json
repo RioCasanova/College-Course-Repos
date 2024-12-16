@@ -1,0 +1,16 @@
+{
+  "main": "main.js",
+  "type": "module",
+  "source": "index.html",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "scripts": {
+    "start": "parcel"
+  }
+}
