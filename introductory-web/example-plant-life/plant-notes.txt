@@ -1,0 +1,85 @@
+***********TYPOGRAPHY**********
+
+**Header**
+background-color: #4f6864
+text color:#fff
+
+nav - font-size: 24px;
+      color: #fff;
+
+**Main**
+
+"plants are us" - font-size: 60px; 
+		  font-weight: bold;
+                  color: #fff;
+                  font: Lora regular
+
+"shop our..." - font-size: 24px; 
+	        font: Work Sans Light;
+                color: #fff;
+
+"shop now"(button) - font-size: 24;
+	             font: Work Sans Light;
+                     color: #fff;
+
+"About Us"(header) - font: Lora regular;
+                     font-size: 72px;
+                     color: #19211f;
+
+"About Us"(text) - font: work sans regular;
+                   font-size: 18px;
+                   color: #19211f; 
+
+"Starting with..." - font: Lora Regular;
+		     font-size: 46px;  
+                     color: #19211f;   
+   
+"watering/Container"(header) - font: Lora Regular;
+	                       font-size: 32px;  
+                               color: #fff;  
+
+"watering/Container"(text) -  font: Work Sans Regular;
+	                      font-size: 16px;  
+                              color: #fff;  
+                              background-color: #0e1c1c;
+
+"Read More >" -   font: Lora Regular;
+	          font-size: 24px;  
+                  color: #fff;  
+
+**footer**
+
+"the plant..." - font-size: 24px;
+		 font: Work Sans Light;
+		 color: 19211f;
+
+nav - font-size: 24px;
+      font:Work Sans Regular;
+      color: 19211f;
+	**ALL CAPS**
+
+links a - font-size: 24px;
+          font:Work Sans Light;
+          color: 19211f;
+
+bottom text - font-size: 16px;
+              font:Work Sans Light;
+              color: 19211f;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            

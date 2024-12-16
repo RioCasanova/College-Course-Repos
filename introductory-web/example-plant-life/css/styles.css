@@ -1,0 +1,346 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: calc((36 / 16) * 1rem);
+}
+
+.header-styles {
+    background-color: #4f6864;
+    color: #fff;
+    padding: 8px 0px 8px 12px;
+    font-size: 1rem;
+}
+.header-styles div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.header-styles img {
+    width: 10%;
+}
+.header-styles ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.header-styles li {
+
+    padding: calc((2 / 16) * 1rem) 2rem;
+    border-radius: 10px;
+}
+
+/* li:hover {
+    background-color: #0e1c1c; // optional hover state
+} */
+li:hover {
+    border: calc((1 / 16) * 1rem) solid white;
+}    
+.start-nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: calc((24 / 16) * 1rem);
+}
+.start-nav-items {
+    display: flex;
+}
+/* REVISED UP TO THIS POINT */
+
+
+/* **********Second Section********** */
+.plants-are-us {
+    background-image: url(../img/grapesbackground.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    height: 390px;
+    color: #fff;
+    font-size: calc((24 / 16) * 1rem);
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.plants-are-us a {
+    color: #fff;
+    text-decoration: none;
+
+}
+a.button:hover {
+    border: calc((1 / 16) * 1rem) solid white;
+}
+a.button {
+    appearance: button;
+    background-color: #0e1c1c;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 1rem;
+}
+
+
+/* **********Third Section********** */
+.about-us {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0 1rem 0 2rem;
+}
+
+.about-us article {
+    padding-top: 4rem;
+}
+.about-us h2 {
+    font-size: 72px;
+
+}
+.p-one {
+    margin-top: 3.5px;
+}
+.p-two {
+    margin-top: 30px;
+}
+.p-three {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.about-us img {
+    margin: 0 auto;
+}
+/* **********Fourth Section********** */
+
+.background-image-two {
+    background-image: url("../img/largeplants2.png");
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 20rem;
+    width: 100%;
+}
+.starting-with-succulents {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    font-size: calc((30 / 16) * 1rem);
+    text-align: center; 
+    padding: 4rem; 
+    backdrop-filter: blur(2px);
+    height: 20rem;
+    width: 100%;
+}
+
+.some-class {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin-top: 40px;
+    /* border-bottom: 2px solid black; */
+}
+.watering {
+    background-color: #0e1c1c;
+    color: #fff;
+    /* width: 380px; */
+    padding: 46px 50px;
+    margin-bottom: 40px;
+}
+.watering h3 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+.watering p {
+    margin-bottom: 30px;
+}
+.watering a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.planting {
+    background-color: #0e1c1c;
+    color: #fff;
+    /* width: 380px; */
+    padding: 46px 50px;
+    margin-bottom: 55px;
+
+}
+.planting h3 {
+    font-size: calc((32 / 16) * 1rem);
+    margin-bottom: 1rem;
+}
+.planting p {
+    margin-bottom: 30px;
+}
+.planting a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* ********************FOOTER STYLES***************** */
+.footer-class {
+    text-align: center;
+}
+.footer-header {
+    background-color: #0e1c1c;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+.footer-class h2 {
+    padding-top: 1rem;
+    font-family: 'Work Sans', sans-serif;
+}
+footer img {
+    margin: 0 auto;
+}
+
+.footer-class ul {
+    margin-top: 15px;
+
+}
+.footer-class ul a:hover {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.nav h3 {
+    font-size: 24px;
+    padding-top: 40px;
+}
+.links-one a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.links-two a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.never-use {
+    font-size: 24px;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding: 0 10px;
+    background-color: #4f6864;
+    color: #fff;
+}
+.final p {
+    padding-top: 15px;
+}
+
+.shop {
+    margin-bottom: 35px;
+}
+.zip {
+    margin-bottom: 35px;
+}
+
+/* ************MEDIA QUERIES************* */
+@media(min-width: 600px){
+
+    /* HEADER */
+    .header-styles div {
+        flex-direction: row;
+    }
+    .header-styles h1 {
+        padding-left: 1rem;
+    }
+    .header-styles img {
+        padding-right: 1rem;
+    }
+    /* BANNER */
+    .plants-are-us {
+       text-align: center;
+    }
+    /* ABOUT US */
+    .about-us {
+        padding-right: 2rem;
+    }
+    .about-us article {
+        display:flex;
+        padding-top: 4rem;
+    }
+    .about-us h2 {
+        text-align: center;
+        padding-top: 2rem;
+        border-bottom: 2px solid #0e1c1c;
+    }
+    .about-us-div-one {
+        flex-direction: column-reverse;
+    }
+    .about-us-div-one img {
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .about-us-div-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+
+    .p-three {
+        padding-bottom: 8rem;
+    }
+    .p-two, 
+    .p-three {
+        margin: 0 ;
+    }
+
+    /* STARTING WITH SUCCULENTS */
+
+    .starting-with-succulents {
+        justify-content: center;
+        backdrop-filter: blur(3px);
+        font-size: calc((45 / 16) * 1rem);
+    }
+    .some-class {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+    .watering {
+        width: calc(100% / 2);
+    }
+    .planting {
+        width: calc((100% / 2));
+        margin-bottom: 40px;
+    }
+    .planting a {
+        margin-top: 4rem;
+    }
+
+    .final {
+        padding-bottom: 1rem;
+    }
+
+    @media(min-width: 960px) {
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        .nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}
