@@ -1,0 +1,71 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section {
+    padding: 3rem;
+    width: calc(100%/2);
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* :nth child selectors - selects elements based on their position as a child in any parent element*/
+
+section:first-child {
+    background-color: crimson;
+}
+
+section:last-child {
+    background-color: steelblue;
+}
+
+section:nth-child(2) {
+    background-color: tomato;
+}
+
+section:nth-child(3) {
+    background-color: khaki;
+}
+
+section:nth-last-child(3) {
+    background-color: lightgreen;
+}
+
+section:nth-last-child(2) {
+    background-color: lightseagreen;
+}
+
+/* The section inside the footer element is both the first child and last child of the parent element. It's also the only section on the page that is an only child. */
+section:only-child {
+    background-color: whitesmoke;
+    color: darkslategray;
+    width: 100%;
+}
+
+/* add a media query to change layout and order of items */
+@media(min-width:900px){
+    section {
+        width: calc(100% / 3);
+    }
+    section:first-of-type {
+        order: 6;
+    }
+    section:nth-of-type(2) {
+        order: 3;
+    }
+    section:nth-of-type(3) {
+        order: 5;
+    }
+    section:nth-of-type(4) {
+        order: 2;
+    }
+    section:nth-of-type(5) {
+        order: 4;
+    }
+    /* section:nth-of-type(6) {
+        order: 1;
+    } */
+}
+/* task - position items in this order: 6, 4, 2, 5, 3, 1 */
